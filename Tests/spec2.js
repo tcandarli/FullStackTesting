@@ -14,6 +14,5 @@ describe('POM and TestData', () => {
         browser.sleep(2000);
         expect(home.title.getText()).toEqual("VA");
         browser.sleep(2000);
-
     });
 });

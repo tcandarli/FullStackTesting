@@ -24,18 +24,25 @@ describe('Login with DB connection', () => {
         // Pre-test trials
         // Show all the users
 
-        db.any(`select * from users`)
-            .then(function(result) {
+        // db.any(`select * from users`)
+        //     .then(function (result) {
+        //         arr = result;
+        //     }).catch(function (error) {
+        //         console.log(error);
+        //     }).then(function () {
+        //         // All our automation code will be there
+        //         console.log(arr);
+        //     })
+
+        // Show email, firstname, lastname and role
+        db.any(`select firstname, lastname, email, role from users`)
+            .then((result) => {
                 arr = result;
-
-            }).catch(function(error) {
+            }).catch((error) => {
                 console.log(error);
-            }).then(function() {
-                // All our automation code will be there
-
+            }).then(() => {
                 console.log(arr);
             })
-
         
     });
 });
