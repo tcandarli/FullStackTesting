@@ -6,6 +6,7 @@ var home = require("../Pages/home.page.js");
 // DB Connection
 var pgp = require('pg-promise')( /*options*/ );
 var connectionString = require("../TestData/dbConnection.js");
+var queries = require("../TestData/queries.js");
 
 describe('Login with DB connection', () => {
 
@@ -14,9 +15,9 @@ describe('Login with DB connection', () => {
     var username = '';
     var pass = '';
 
-    it('Test Case 4 - Conncection String and Queries POM ', () => {
+    it('Test Case 4 - Connection String and Queries POM ', () => {
 
-        db.any(`select firstname, lastname, email from users where email = 'efewtrell8c@craigslist.org';`)
+        db.any(queries.q1);
             .then((result) => {
                 username = result[0].email;
                 //console.log(username);
