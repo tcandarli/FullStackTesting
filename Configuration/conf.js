@@ -9,7 +9,7 @@ exports.config = {
     browserName: 'chrome'
   },
   
-  specs: ['../Tests/spec2.js'], 
+  specs: ['../Tests/spec3.js'], 
 
   // suites:{
   //   smoke: ['../Tests/BankManagerSimple.spec.js', '../Tests/demo.spec.js'],

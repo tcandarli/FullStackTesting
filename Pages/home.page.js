@@ -1,4 +1,4 @@
-var homePage = function() {
+var homePage = function () {
 
     this.email = $('[name="email"]');
     this.password = $('[name="password"]');
