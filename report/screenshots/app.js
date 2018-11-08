@@ -172,16 +172,16 @@ app.controller('ScreenshotReportController', function ($scope) {
         "passed": true,
         "pending": false,
         "os": "Windows NT",
-        "instanceId": 4876,
+        "instanceId": 27260,
         "browser": {
             "name": "chrome",
             "version": "70.0.3538.77"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "images\\00d700d4-0049-00f2-0069-00fc003a00e4.png",
-        "timestamp": 1541700477222,
-        "duration": 81
+        "screenShotFile": "images\\006d00e3-0006-00e1-00b3-00a700ec00b5.png",
+        "timestamp": 1541707333803,
+        "duration": 34
     }
 ];
 
