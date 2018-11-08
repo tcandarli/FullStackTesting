@@ -9,7 +9,7 @@ exports.config = {
     browserName: 'chrome'
   },
   
-  specs: ['../Tests/spec6.js'], 
+  specs: ['../Tests/spec2.js'], 
 
   // suites:{
   //   smoke: ['../Tests/BankManagerSimple.spec.js', '../Tests/demo.spec.js'],
@@ -31,7 +31,7 @@ onPrepare: function () {
         preserveDirectory: false,
         screenshotsSubfolder: 'images',
          jsonsSubfolder: 'jsons',
-         docName: 'CyberBank-Report.html'
+         docName: 'bookit-Report.html'
      }).getJasmine2Reporter());
   
 },
