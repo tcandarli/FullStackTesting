@@ -168,20 +168,20 @@ app.controller('ScreenshotReportController', function ($scope) {
 
     var results = [
     {
-        "description": "Test Case 3 - Login to the website with DB connection |Login with DB connection",
+        "description": "Test Case 4 - Conncection String and Queries POM |Login with DB connection",
         "passed": true,
         "pending": false,
         "os": "Windows NT",
-        "instanceId": 27260,
+        "instanceId": 22760,
         "browser": {
             "name": "chrome",
             "version": "70.0.3538.77"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "images\\006d00e3-0006-00e1-00b3-00a700ec00b5.png",
-        "timestamp": 1541707333803,
-        "duration": 34
+        "screenShotFile": "images\\00f400d2-001c-00fd-0041-007e00b8007c.png",
+        "timestamp": 1541709148095,
+        "duration": 68
     }
 ];
 
