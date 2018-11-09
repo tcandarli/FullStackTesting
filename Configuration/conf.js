@@ -9,7 +9,7 @@ exports.config = {
     browserName: 'chrome'
   },
   
-  specs: ['../Tests/spec5.js'], 
+  specs: ['../Tests/spec6.js'], 
 
   // suites:{
   //   smoke: ['../Tests/BankManagerSimple.spec.js', '../Tests/demo.spec.js'],
@@ -38,7 +38,7 @@ onPrepare: function () {
     
     jasmineNodeOpts: {
         showColors: true, 
-        defaultTimeoutInterval: 30000,    
+        defaultTimeoutInterval: 240000,    
         print: function() {}
         
 }

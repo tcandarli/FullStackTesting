@@ -1,6 +1,6 @@
 var topNav = function () {
 
-    this.my = element(by.linkText("my")); //$$(".navbar-link");//
+    this.my = element(by.linkText("my")); //$$(".navbar-link");
     this.self = element(by.linkText("self"));
     this.map = element(by.linkText("map"));
     this.schedule = element(by.linkText("schedule"));
