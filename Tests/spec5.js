@@ -20,7 +20,7 @@ describe('Login with DB connection', () => {
 
         // Fetch the data from database
 
-        db.any(queries.q1)
+        db.any(queries.q2)
             .then((result) => {
                 arr = result;
                 username = result[0].email;
